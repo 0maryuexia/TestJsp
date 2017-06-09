@@ -8,9 +8,20 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+
   </head>
   <body>
-  $END$
+
+    <%!
+      /*
+      int k = 1111;
+        */
+    %>
+    <%int i = 0; %>
+
+
+    <br>
+
+    <h1><%= i+1 %></h1>
   </body>
 </html>
