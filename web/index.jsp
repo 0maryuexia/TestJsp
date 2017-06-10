@@ -10,17 +10,12 @@
 
 <html>
   <head>
-    <title>$Title$</title>
+    <title>首页</title>
   </head>
   <body>
-    <!-- HTML注释 -->
-    <%-- jsp注释 --%>
-    <%! int k = 12 ;/*
-      成员变量
-    */%>
-
-    <% int i ; //局部变量%>
-
-    <%= i %>>
+    <form action="/jsp/dome1.jsp" method="get">
+      <input type="submit" value="跳转到dome1.jsp" action="/example/html/" /><br><br>
+      <input type="image"  src="/img/dome1.jsp.jpg" />
+    </form>
   </body>
 </html>
