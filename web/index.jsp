@@ -6,21 +6,16 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page errorPage="jsp/error.jsp" %>
+
 <html>
   <head>
-    <title>$Title$</title>
+    <title>首页</title>
   </head>
   <body>
-  <h1>jsp ====</h1>
-    <%!
-      int k = 1111;
-
-    %>
-    <%int i = 0; %>
-
-   <h1><%= 1+k%></h1>
-    <br>
-
-    <h1><%= i+1 %></h1>
+    <form action="/jsp/dome1.jsp" method="get">
+      <input type="submit" value="跳转到dome1.jsp" action="/example/html/" /><br><br>
+      <input type="image"  src="/img/dome1.jsp.jpg" />
+    </form>
   </body>
 </html>

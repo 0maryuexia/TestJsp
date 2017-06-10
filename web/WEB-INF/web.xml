@@ -11,4 +11,14 @@
         <servlet-name>dome</servlet-name>
         <url-pattern>/servlet/dome</url-pattern>
     </servlet-mapping>
+
+    <!--<error-page>-->
+        <!--<error-code>500</error-code>-->
+        <!--<location>/jsp/error.jsp</location>-->
+    <!--</error-page>-->
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/jsp/urlError.jsp</location>
+    </error-page>
 </web-app>
