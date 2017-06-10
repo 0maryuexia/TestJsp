@@ -8,18 +8,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-
+    <title>$Title$</title>
   </head>
   <body>
-
+  <h1>jsp ====</h1>
     <%!
-      /*
       int k = 1111;
-        */
+
     %>
     <%int i = 0; %>
 
-
+   <h1><%= 1+k%></h1>
     <br>
 
     <h1><%= i+1 %></h1>
