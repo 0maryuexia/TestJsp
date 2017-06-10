@@ -9,10 +9,11 @@
 <%@ page isErrorPage="true" %>
 <html>
 <head>
-    <title>系统出错了</title>
+
 </head>
 <body>
-    <p>系统出错！</p>
-
+    <div >
+    <img src="/img/3732d500.jpg">
+    </div>
 </body>
 </html>

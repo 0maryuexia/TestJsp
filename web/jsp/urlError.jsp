@@ -11,6 +11,6 @@
     <title>页面找不着</title>
 </head>
 <body>
-<P>页面找不到了！</P>
+<<img src="/img/3732d69ba140defc1ccee936bf0ebe103efd17ed16e95-LF2VvE.png">>
 </body>
 </html>
