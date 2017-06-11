@@ -16,6 +16,7 @@
     <form action="/jsp/dome1.jsp" method="get">
       <input type="submit" value="跳转到dome1.jsp" action="/example/html/" /><br><br>
       <input type="image"  src="/img/dome1.jsp.jpg" />
+      <% System.out.println("index.jsp加载成功"); %>
     </form>
   </body>
 </html>
