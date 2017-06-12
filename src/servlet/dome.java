@@ -11,6 +11,6 @@ public class dome extends javax.servlet.http.HttpServlet {
     }
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-        System.out.print("调用了dome1.jsp");
+        System.out.println("dome1.class加载成功");
     }
 }

@@ -11,6 +11,15 @@
         <servlet-name>dome</servlet-name>
         <url-pattern>/servlet/dome</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>jumpJsp</servlet-name>
+        <servlet-class>servlet.jumpJsp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jumpJsp</servlet-name>
+        <url-pattern>/servlet/jumpJsp</url-pattern>
+    </servlet-mapping>
 
     <!--<error-page>-->
         <!--<error-code>500</error-code>-->
