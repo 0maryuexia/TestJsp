@@ -24,7 +24,9 @@
         <p>运行时</p>
         <jsp:include page="dome2.jsp" />
         <jsp:forward page="dome2.jsp" >
-
+            <jsp:param name="" value=""></jsp:param>
         </jsp:forward>
+
+        <% System.out.println("dome1.jsp加载成功"); %>
     </body>
  </html>
